@@ -3,8 +3,6 @@ import shuffle from '../utilities/shuffle';
 import Card from './Card';
 import Header from './Header';
 
-import '../App.css';
-
 function App() {
   const [cards, setCards] = useState(shuffle); //state to track randomized cards array
   const [firstPick, setFirstPick] = useState(null); //state to track users first picked card each turn
