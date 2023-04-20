@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 
 function App() {
+  const [ cards, setCards ] = useState();
   return (
-    <div>
+    <div className='grid'>
+
 
     </div>
   );
